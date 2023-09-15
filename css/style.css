@@ -1,0 +1,144 @@
+header.sticky {
+    position: sticky;
+    top: 0;
+    background-color: #051036;
+}
+
+.drop:hover .sub-manu {
+    visibility: visible;
+    opacity: 1;
+}
+
+.modalDialog:target {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.slick-prev,
+.slick-next {
+    z-index: 10;
+}
+
+.slid-banner .slick-prev {
+    left: 60px;
+}
+
+.slid-banner .slick-next {
+    right: 75px;
+}
+
+.slid-banner .slick-prev:before,
+.slid-banner .slick-next:before {
+    font-size: 40px;
+}
+
+.shipp .slick-prev {
+    left: 20px;
+}
+
+.shipp .slick-next {
+    right: 35px;
+}
+
+.shipp .slick-prev:before,
+.shipp .slick-next:before {
+    font-size: 15px;
+    border-radius: 50%;
+    background-color: #fff;
+    color: #000;
+    padding: 5px;
+}
+
+.slick-dots {
+    bottom: 15px;
+    font-size: 20px;
+}
+
+.slick-dots li button:before {
+    font-size: 30px;
+    color: #fff;
+}
+
+.slick-dots li.slick-active button:before {
+    color: #fff;
+}
+
+.slick-dotted.slick-slider {
+    margin-bottom: 0;
+}
+
+.review .slick-prev,
+.review .slick-next {
+    top: 96%;
+}
+
+.review .slick-prev {
+    left: 265px;
+}
+
+.review .slick-next {
+    right: 265px;
+}
+
+.review .slick-dots {
+    bottom: 2px;
+}
+
+.move {
+    animation: move 2s linear infinite;
+}
+
+@keyframes move {
+    0% {
+        transform: translate(-50%, 10px);
+        opacity: 0;
+    }
+
+    50% {
+        transform: translate(-50%, 40px);
+        opacity: 1;
+    }
+
+    100% {
+        transform: translate(-50%, 80px);
+        opacity: 0;
+    }
+}
+
+.featured-c h3 {
+    position: relative;
+}
+
+.featured-c h3::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 1.5px;
+    bottom: 0;
+    left: 0;
+    background-color: #000;
+    transition: 0.2s cubic-bezier(0.785, 0.135, 0.15, 0.86) 0s;
+}
+
+.featured-c:hover h3::after {
+    width: 100%;
+}
+
+.featured-c .box {
+    position: relative;
+}
+
+.featured-c .box::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 1.5px;
+    bottom: 0;
+    left: 0;
+    background-color: #000;
+    transition: 0.4s cubic-bezier(0.785, 0.135, 0.15, 0.86) 0s;
+}
+
+.featured-c:hover .box::after {
+    width: 100%;
+}

@@ -1,0 +1,1526 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="icon/hot-air-balloon.png" type="image/x-icon" /> <!-- favicon.ico -->
+    <link rel="stylesheet" href="css/font.css" /> <!-- font.css -->
+    <link rel="stylesheet" href="css/animate.css" /> <!-- wow js -->
+
+    <!-- -------------- slider --------------- -->
+    <link rel="stylesheet" href="css/slick.css" />
+    <link rel="stylesheet" href="css/slick-theme.css" />
+    <!---------------------------------------------------->
+
+    <link rel="stylesheet" href="css/all.min.css" /> <!-- all.min.css  -->
+    <link rel="stylesheet" href="css/style.css" /> <!-- style.css  -->
+
+    <!-- ----------------- tailwind.css ---------------- -->
+    <script src="css/tailwind.css"></script>
+    <!---------------------------------------------------->
+
+    <title>GoTrip</title>
+</head>
+
+<body style="font-family: 'jost';">
+
+    <section class="head-1 py-2.5 bg-blue-600 z-2">
+        <div class="xl:container xl:mx-auto xl:px-4">
+            <div class="flex items-center justify-between">
+                <div class="part-1">
+                    <div class="head-contect">
+                        <span class="pe-3 border-r border-gray-300"><a href="javascript:void(0)"
+                                class="text-white hover:text-blue-600 transition duration-500 ease-in-out text-sm">+(1)
+                                123 456 7890</a></span>
+                        <span class="ps-2"><a href="javascript:void(0)"
+                                class="text-white hover:text-blue-600 transition duration-500 ease-in-out text-sm">hi@gotrip.com</a></span>
+                    </div>
+                </div>
+                <div class="part-2">
+                    <div class="head-contect2 flex items-center">
+                        <span class="pe-3 border-r border-gray-300">
+                            <a href="#openModal-about" class="text-white text-sm">
+                                <ul class="flex items-center justify-center">
+                                    <li class="me-2">USD</li>
+                                    <li><i class="fa-solid fa-sort-down"></i></li>
+                                </ul>
+                            </a>
+                            <div id="openModal-about"
+                                class="modalDialog fixed top-0 right-0 left-0 bottom-0 bg-[#000000cc] z-[9999] opacity-0 pointer-events-none transition duration-500 ease-in-out">
+                                <div class="w-[70%] m-[10%_auto] p-[20px] rounded-[3px] bg-white">
+                                    <div
+                                        class="modal-head flex items-center justify-between pb-4 border-b border-inherit">
+                                        <h2 class="font-medium text-[18px]">Select your currency</h2>
+                                        <a href="#close" title="Close" class="close text-[20px]"><i
+                                                class="fa-solid fa-xmark"></i></a>
+                                    </div>
+                                    <div class="row flex flex-wrap pt-5">
+                                        <div class="w-1/5">
+                                            <ul>
+                                                <li
+                                                    class="cursor-pointer mb-3 mr-4 hover:translate-x-3 hover:bg-sky-50 p-3 hover:text-blue-600 rounded transition duration-500 ease-in-out">
+                                                    <h5 class="text-[14.5px]">United States dollar</h5>
+                                                    <span class="text-[13px] text-gray-500">USD - $</span>
+                                                </li>
+                                                <li
+                                                    class="cursor-pointer mb-3 mr-4 hover:translate-x-3 hover:bg-sky-50 p-3 hover:text-blue-600 rounded transition duration-500 ease-in-out">
+                                                    <h5 class="text-[14.5px]">United States dollar</h5>
+                                                    <span class="text-[13px] text-gray-500">USD - $</span>
+                                                </li>
+                                                <li
+                                                    class="cursor-pointer mb-3 mr-4 hover:translate-x-3 hover:bg-sky-50 p-3 hover:text-blue-600 rounded transition duration-500 ease-in-out">
+                                                    <h5 class="text-[14.5px]">United States dollar</h5>
+                                                    <span class="text-[13px] text-gray-500">USD - $</span>
+                                                </li>
+                                                <li
+                                                    class="cursor-pointer mr-4 hover:translate-x-3 hover:bg-sky-50 p-3 hover:text-blue-600 rounded transition duration-500 ease-in-out">
+                                                    <h5 class="text-[14.5px]">United States dollar</h5>
+                                                    <span class="text-[13px] text-gray-500">USD - $</span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="w-1/5">
+                                            <ul>
+                                                <li
+                                                    class="cursor-pointer mb-3 mr-4 hover:translate-x-3 hover:bg-sky-50 p-3 hover:text-blue-600 rounded transition duration-500 ease-in-out">
+                                                    <h5 class="text-[14.5px]">Australian dollar</h5>
+                                                    <span class="text-[13px] text-gray-500">AUD - $</span>
+                                                </li>
+                                                <li
+                                                    class="cursor-pointer mb-3 mr-4 hover:translate-x-3 hover:bg-sky-50 p-3 hover:text-blue-600 rounded transition duration-500 ease-in-out">
+                                                    <h5 class="text-[14.5px]">Australian dollar</h5>
+                                                    <span class="text-[13px] text-gray-500">AUD - $</span>
+                                                </li>
+                                                <li
+                                                    class="cursor-pointer mb-3 mr-4 hover:translate-x-3 hover:bg-sky-50 p-3 hover:text-blue-600 rounded transition duration-500 ease-in-out">
+                                                    <h5 class="text-[14.5px]">Australian dollar</h5>
+                                                    <span class="text-[13px] text-gray-500">AUD - $</span>
+                                                </li>
+                                                <li
+                                                    class="cursor-pointer mr-4 hover:translate-x-3 hover:bg-sky-50 p-3 hover:text-blue-600 rounded transition duration-500 ease-in-out">
+                                                    <h5 class="text-[14.5px]">Australian dollar</h5>
+                                                    <span class="text-[13px] text-gray-500">AUD - $</span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="w-1/5">
+                                            <ul>
+                                                <li
+                                                    class="cursor-pointer mb-3 mr-4 hover:translate-x-3 hover:bg-sky-50 p-3 hover:text-blue-600 rounded transition duration-500 ease-in-out">
+                                                    <h5 class="text-[14.5px]">Brazilian real</h5>
+                                                    <span class="text-[13px] text-gray-500">BRL - R$</span>
+                                                </li>
+                                                <li
+                                                    class="cursor-pointer mb-3 mr-4 hover:translate-x-3 hover:bg-sky-50 p-3 hover:text-blue-600 rounded transition duration-500 ease-in-out">
+                                                    <h5 class="text-[14.5px]">Brazilian real</h5>
+                                                    <span class="text-[13px] text-gray-500">BRL - R$</span>
+                                                </li>
+                                                <li
+                                                    class="cursor-pointer mb-3 mr-4 hover:translate-x-3 hover:bg-sky-50 p-3 hover:text-blue-600 rounded transition duration-500 ease-in-out">
+                                                    <h5 class="text-[14.5px]">Brazilian real</h5>
+                                                    <span class="text-[13px] text-gray-500">BRL - R$</span>
+                                                </li>
+                                                <li
+                                                    class="cursor-pointer mr-4 hover:translate-x-3 hover:bg-sky-50 p-3 hover:text-blue-600 rounded transition duration-500 ease-in-out">
+                                                    <h5 class="text-[14.5px]">Brazilian real</h5>
+                                                    <span class="text-[13px] text-gray-500">BRL - R$</span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="w-1/5">
+                                            <ul>
+                                                <li
+                                                    class="cursor-pointer mb-3 mr-4 hover:translate-x-3 hover:bg-sky-50 p-3 hover:text-blue-600 rounded transition duration-500 ease-in-out">
+                                                    <h5 class="text-[14.5px]">Bulgarian lev</h5>
+                                                    <span class="text-[13px] text-gray-500">BGN - лв.</span>
+                                                </li>
+                                                <li
+                                                    class="cursor-pointer mb-3 mr-4 hover:translate-x-3 hover:bg-sky-50 p-3 hover:text-blue-600 rounded transition duration-500 ease-in-out">
+                                                    <h5 class="text-[14.5px]">Bulgarian lev</h5>
+                                                    <span class="text-[13px] text-gray-500">BGN - лв.</span>
+                                                </li>
+                                                <li
+                                                    class="cursor-pointer mb-3 mr-4 hover:translate-x-3 hover:bg-sky-50 p-3 hover:text-blue-600 rounded transition duration-500 ease-in-out">
+                                                    <h5 class="text-[14.5px]">Bulgarian lev</h5>
+                                                    <span class="text-[13px] text-gray-500">BGN - лв.</span>
+                                                </li>
+                                                <li
+                                                    class="cursor-pointer mr-4 hover:translate-x-3 hover:bg-sky-50 p-3 hover:text-blue-600 rounded transition duration-500 ease-in-out">
+                                                    <h5 class="text-[14.5px]">Bulgarian lev</h5>
+                                                    <span class="text-[13px] text-gray-500">BGN - лв.</span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="w-1/5">
+                                            <ul>
+                                                <li
+                                                    class="cursor-pointer mb-3 mr-3 hover:translate-x-3 hover:bg-sky-50 p-3 hover:text-blue-600 rounded transition duration-500 ease-in-out">
+                                                    <h5 class="text-[14.5px]">Canadian dollar</h5>
+                                                    <span class="text-[13px] text-gray-500">CAD - $</span>
+                                                </li>
+                                                <li
+                                                    class="cursor-pointer mb-3 mr-3 hover:translate-x-3 hover:bg-sky-50 p-3 hover:text-blue-600 rounded transition duration-500 ease-in-out">
+                                                    <h5 class="text-[14.5px]">Canadian dollar</h5>
+                                                    <span class="text-[13px] text-gray-500">CAD - $</span>
+                                                </li>
+                                                <li
+                                                    class="cursor-pointer mb-3 mr-3 hover:translate-x-3 hover:bg-sky-50 p-3 hover:text-blue-600 rounded transition duration-500 ease-in-out">
+                                                    <h5 class="text-[14.5px]">Canadian dollar</h5>
+                                                    <span class="text-[13px] text-gray-500">CAD - $</span>
+                                                </li>
+                                                <li
+                                                    class="cursor-pointer mr-3 hover:translate-x-3 hover:bg-sky-50 p-3 hover:text-blue-600 rounded transition duration-500 ease-in-out">
+                                                    <h5 class="text-[14.5px]">Canadian dollar</h5>
+                                                    <span class="text-[13px] text-gray-500">CAD - $</span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </span>
+                        <span class="pe-3 ps-2 border-r border-gray-300">
+                            <a href="#openModal-2" class="text-white text-sm">
+                                <ul class="flex items-center justify-center">
+                                    <li class="me-2">
+                                        <img src="img/lang.png" alt="lang" class="rounded-full w-full" />
+                                    </li>
+                                    <li class="me-2">United Kingdom</li>
+                                    <li><i class="fa-solid fa-sort-down"></i></li>
+                                </ul>
+                            </a>
+                            <div id="openModal-2"
+                                class="modalDialog fixed top-0 right-0 left-0 bottom-0 bg-[#000000cc] z-[9999] opacity-0 pointer-events-none transition duration-500 ease-in-out">
+                                <div class="w-[70%] m-[10%_auto] p-[20px] rounded-[3px] bg-white">
+                                    <div
+                                        class="modal-head flex items-center justify-between pb-4 border-b border-inherit">
+                                        <h2 class="font-medium text-[18px]">Select your language</h2>
+                                        <a href="#close" title="Close" class="close text-[20px]"><i
+                                                class="fa-solid fa-xmark"></i></a>
+                                    </div>
+                                    <div class="row flex flex-wrap pt-5">
+                                        <div class="w-1/5">
+                                            <ul>
+                                                <li
+                                                    class="cursor-pointer mb-3 mr-4 hover:translate-x-3 hover:bg-sky-50 p-3 hover:text-blue-600 rounded transition duration-500 ease-in-out">
+                                                    <h5 class="text-[14.5px]">English</h5>
+                                                    <span class="text-[13px] text-gray-500">United States</span>
+                                                </li>
+                                                <li
+                                                    class="cursor-pointer mb-3 mr-4 hover:translate-x-3 hover:bg-sky-50 p-3 hover:text-blue-600 rounded transition duration-500 ease-in-out">
+                                                    <h5 class="text-[14.5px]">English</h5>
+                                                    <span class="text-[13px] text-gray-500">United States</span>
+                                                </li>
+                                                <li
+                                                    class="cursor-pointer mb-3 mr-4 hover:translate-x-3 hover:bg-sky-50 p-3 hover:text-blue-600 rounded transition duration-500 ease-in-out">
+                                                    <h5 class="text-[14.5px]">English</h5>
+                                                    <span class="text-[13px] text-gray-500">United States</span>
+                                                </li>
+                                                <li
+                                                    class="cursor-pointer mr-4 hover:translate-x-3 hover:bg-sky-50 p-3 hover:text-blue-600 rounded transition duration-500 ease-in-out">
+                                                    <h5 class="text-[14.5px]">English</h5>
+                                                    <span class="text-[13px] text-gray-500">United States</span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="w-1/5">
+                                            <ul>
+                                                <li
+                                                    class="cursor-pointer mb-3 mr-4 hover:translate-x-3 hover:bg-sky-50 p-3 hover:text-blue-600 rounded transition duration-500 ease-in-out">
+                                                    <h5 class="text-[14.5px]">Türkçe</h5>
+                                                    <span class="text-[13px] text-gray-500">Turkey</span>
+                                                </li>
+                                                <li
+                                                    class="cursor-pointer mb-3 mr-4 hover:translate-x-3 hover:bg-sky-50 p-3 hover:text-blue-600 rounded transition duration-500 ease-in-out">
+                                                    <h5 class="text-[14.5px]">Türkçe</h5>
+                                                    <span class="text-[13px] text-gray-500">Turkey</span>
+                                                </li>
+                                                <li
+                                                    class="cursor-pointer mb-3 mr-4 hover:translate-x-3 hover:bg-sky-50 p-3 hover:text-blue-600 rounded transition duration-500 ease-in-out">
+                                                    <h5 class="text-[14.5px]">Türkçe</h5>
+                                                    <span class="text-[13px] text-gray-500">Turkey</span>
+                                                </li>
+                                                <li
+                                                    class="cursor-pointer mr-4 hover:translate-x-3 hover:bg-sky-50 p-3 hover:text-blue-600 rounded transition duration-500 ease-in-out">
+                                                    <h5 class="text-[14.5px]">Türkçe</h5>
+                                                    <span class="text-[13px] text-gray-500">Turkey</span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="w-1/5">
+                                            <ul>
+                                                <li
+                                                    class="cursor-pointer mb-3 mr-4 hover:translate-x-3 hover:bg-sky-50 p-3 hover:text-blue-600 rounded transition duration-500 ease-in-out">
+                                                    <h5 class="text-[14.5px]">Español</h5>
+                                                    <span class="text-[13px] text-gray-500">España</span>
+                                                </li>
+                                                <li
+                                                    class="cursor-pointer mb-3 mr-4 hover:translate-x-3 hover:bg-sky-50 p-3 hover:text-blue-600 rounded transition duration-500 ease-in-out">
+                                                    <h5 class="text-[14.5px]">Español</h5>
+                                                    <span class="text-[13px] text-gray-500">España</span>
+                                                </li>
+                                                <li
+                                                    class="cursor-pointer mb-3 mr-4 hover:translate-x-3 hover:bg-sky-50 p-3 hover:text-blue-600 rounded transition duration-500 ease-in-out">
+                                                    <h5 class="text-[14.5px]">Español</h5>
+                                                    <span class="text-[13px] text-gray-500">España</span>
+                                                </li>
+                                                <li
+                                                    class="cursor-pointer mr-4 hover:translate-x-3 hover:bg-sky-50 p-3 hover:text-blue-600 rounded transition duration-500 ease-in-out">
+                                                    <h5 class="text-[14.5px]">Español</h5>
+                                                    <span class="text-[13px] text-gray-500">España</span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="w-1/5">
+                                            <ul>
+                                                <li
+                                                    class="cursor-pointer mb-3 mr-4 hover:translate-x-3 hover:bg-sky-50 p-3 hover:text-blue-600 rounded transition duration-500 ease-in-out">
+                                                    <h5 class="text-[14.5px]">Français</h5>
+                                                    <span class="text-[13px] text-gray-500">France</span>
+                                                </li>
+                                                <li
+                                                    class="cursor-pointer mb-3 mr-4 hover:translate-x-3 hover:bg-sky-50 p-3 hover:text-blue-600 rounded transition duration-500 ease-in-out">
+                                                    <h5 class="text-[14.5px]">Français</h5>
+                                                    <span class="text-[13px] text-gray-500">France</span>
+                                                </li>
+                                                <li
+                                                    class="cursor-pointer mb-3 mr-4 hover:translate-x-3 hover:bg-sky-50 p-3 hover:text-blue-600 rounded transition duration-500 ease-in-out">
+                                                    <h5 class="text-[14.5px]">Français</h5>
+                                                    <span class="text-[13px] text-gray-500">France</span>
+                                                </li>
+                                                <li
+                                                    class="cursor-pointer mr-4 hover:translate-x-3 hover:bg-sky-50 p-3 hover:text-blue-600 rounded transition duration-500 ease-in-out">
+                                                    <h5 class="text-[14.5px]">Français</h5>
+                                                    <span class="text-[13px] text-gray-500">France</span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="w-1/5">
+                                            <ul>
+                                                <li
+                                                    class="cursor-pointer mb-3 mr-3 hover:translate-x-3 hover:bg-sky-50 p-3 hover:text-blue-600 rounded transition duration-500 ease-in-out">
+                                                    <h5 class="text-[14.5px]">Italiano</h5>
+                                                    <span class="text-[13px] text-gray-500">Italia</span>
+                                                </li>
+                                                <li
+                                                    class="cursor-pointer mb-3 mr-3 hover:translate-x-3 hover:bg-sky-50 p-3 hover:text-blue-600 rounded transition duration-500 ease-in-out">
+                                                    <h5 class="text-[14.5px]">Italiano</h5>
+                                                    <span class="text-[13px] text-gray-500">Italia</span>
+                                                </li>
+                                                <li
+                                                    class="cursor-pointer mb-3 mr-3 hover:translate-x-3 hover:bg-sky-50 p-3 hover:text-blue-600 rounded transition duration-500 ease-in-out">
+                                                    <h5 class="text-[14.5px]">Italiano</h5>
+                                                    <span class="text-[13px] text-gray-500">Italia</span>
+                                                </li>
+                                                <li
+                                                    class="cursor-pointer mr-3 hover:translate-x-3 hover:bg-sky-50 p-3 hover:text-blue-600 rounded transition duration-500 ease-in-out">
+                                                    <h5 class="text-[14.5px]">Italiano</h5>
+                                                    <span class="text-[13px] text-gray-500">Italia</span>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </span>
+                        <span class="ps-2 pe-3 border-r border-gray-300"><a href="javascript:void(0)"
+                                class="text-white hover:text-blue-600 transition duration-500 ease-in-out text-sm">Become
+                                An Expert</a></span>
+                        <span class="ps-2"><a href="javascript:void(0)"
+                                class="text-white hover:text-blue-600 transition duration-500 ease-in-out text-sm">
+                                Singh In / Register </a></span>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <header class="head-2 py-4 w-full fixed transition duration-500 ease-in-out z-50">
+        <div class="xl:container xl:mx-auto xl:px-4">
+            <div class="flex items-center justify-between">
+                <div class="part1">
+                    <div class="logo cursor-pointer">
+                        <img src="img/logo-light.svg" alt="logo" class="w-10/12">
+                    </div>
+                </div>
+                <div class="part2">
+                    <nav>
+                        <ul class="flex items-center justify-center">
+                            <li class="mx-3 drop relative">
+                                <a href="javascript:void(0)" class="text-white me-2 text-sm">Home</a>
+                                <a href="javascript:void(0)" class="text-white text-sm"><i
+                                        class="fa-solid fa-sort-down"></i></a>
+                                <a href="javascript:void(0)"
+                                    class="absolute sub-manu text-white top-[110%] left-[25%] text-[25px] invisible opacity-0"
+                                    style="transition: .5s;"><i class="fa-solid fa-caret-up"></i></a>
+                                <ul class="sub-manu absolute top-[190%] bg-white p-3 w-[200px] rounded-md invisible opacity-0"
+                                    style="transition: .5s;">
+                                    <li
+                                        class="p-[3px_10px] hover:bg-sky-50 hover:text-blue-600 mr-3 hover:translate-x-2 rounded-md cursor-pointer transition duration-500 ease-in-out">
+                                        <a href="javascript:void(0)" class="text-[14px]">Home 1</a>
+                                    </li>
+                                    <li
+                                        class="p-[3px_10px] hover:bg-sky-50 hover:text-blue-600 mr-3 hover:translate-x-2 rounded-md cursor-pointer transition duration-500 ease-in-out">
+                                        <a href="javascript:void(0)" class="text-[14px]">Home 2</a>
+                                    </li>
+                                    <li
+                                        class="p-[3px_10px] hover:bg-sky-50 hover:text-blue-600 mr-3 hover:translate-x-2 rounded-md cursor-pointer transition duration-500 ease-in-out">
+                                        <a href="javascript:void(0)" class="text-[14px]">Home 3</a>
+                                    </li>
+                                    <li
+                                        class="p-[3px_10px] hover:bg-sky-50 hover:text-blue-600 mr-3 hover:translate-x-2 rounded-md cursor-pointer transition duration-500 ease-in-out">
+                                        <a href="javascript:void(0)" class="text-[14px]">Home 4</a>
+                                    </li>
+                                    <li
+                                        class="p-[3px_10px] hover:bg-sky-50 hover:text-blue-600 mr-3 hover:translate-x-2 rounded-md cursor-pointer transition duration-500 ease-in-out">
+                                        <a href="javascript:void(0)" class="text-[14px]">Home 5</a>
+                                    </li>
+                                    <li
+                                        class="p-[3px_10px] hover:bg-sky-50 hover:text-blue-600 mr-3 hover:translate-x-2 rounded-md cursor-pointer transition duration-500 ease-in-out">
+                                        <a href="javascript:void(0)" class="text-[14px]">Home 6</a>
+                                    </li>
+                                    <li
+                                        class="p-[3px_10px] hover:bg-sky-50 hover:text-blue-600 mr-3 hover:translate-x-2 rounded-md cursor-pointer transition duration-500 ease-in-out">
+                                        <a href="javascript:void(0)" class="text-[14px]">Home 7</a>
+                                    </li>
+                                    <li
+                                        class="p-[3px_10px] hover:bg-sky-50 hover:text-blue-600 mr-3 hover:translate-x-2 rounded-md cursor-pointer transition duration-500 ease-in-out">
+                                        <a href="javascript:void(0)" class="text-[14px]">Home 8</a>
+                                    </li>
+                                    <li
+                                        class="p-[3px_10px] hover:bg-sky-50 hover:text-blue-600 mr-3 hover:translate-x-2 rounded-md cursor-pointer transition duration-500 ease-in-out">
+                                        <a href="javascript:void(0)" class="text-[14px]">Home 9</a>
+                                    </li>
+                                    <li
+                                        class="p-[3px_10px] hover:bg-sky-50 hover:text-blue-600 mr-3 hover:translate-x-2 rounded-md cursor-pointer transition duration-500 ease-in-out">
+                                        <a href="javascript:void(0)" class="text-[14px]">Home 10</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="mx-3 drop relative">
+                                <a href="javascript:void(0)" class="text-white me-2 text-sm">Categories</a>
+                                <a href="javascript:void(0)" class="text-white"><i
+                                        class="fa-solid fa-sort-down"></i></a>
+                                <a href="javascript:void(0)"
+                                    class="absolute sub-manu text-white top-[110%] left-[25%] text-[25px] invisible opacity-0"
+                                    style="transition: .5s;"><i class="fa-solid fa-caret-up"></i></a>
+                                <div class="sub-manu absolute top-[190%] bg-white p-3 w-[600px] rounded-md invisible opacity-0"
+                                    style="transition: .5s;">
+                                    <div class="sub-head mb-5">
+                                        <ul class="flex items-center">
+                                            <li class="m-2"><a href="javascript:void(0)"
+                                                    class="text-[14px] font-medium text-blue-600 underline">Hotel</a>
+                                            </li>
+                                            <li class="m-2"><a href="javascript:void(0)"
+                                                    class="text-[14px] font-medium text-gray-400 hover:text-blue-600 transition duration-500 ease-in-out">Tour</a>
+                                            </li>
+                                            <li class="m-2"><a href="javascript:void(0)"
+                                                    class="text-[14px] font-medium text-gray-400 hover:text-blue-600 transition duration-500 ease-in-out">Activity</a>
+                                            </li>
+                                            <li class="m-2"><a href="javascript:void(0)"
+                                                    class="text-[14px] font-medium text-gray-400 hover:text-blue-600 transition duration-500 ease-in-out">Holiday
+                                                    Rentals</a></li>
+                                            <li class="m-2"><a href="javascript:void(0)"
+                                                    class="text-[14px] font-medium text-gray-400 hover:text-blue-600 transition duration-500 ease-in-out">Car</a>
+                                            </li>
+                                            <li class="m-2"><a href="javascript:void(0)"
+                                                    class="text-[14px] font-medium text-gray-400 hover:text-blue-600 transition duration-500 ease-in-out">Cruise</a>
+                                            </li>
+                                            <li class="m-2"><a href="javascript:void(0)"
+                                                    class="text-[14px] font-medium text-gray-400 hover:text-blue-600 transition duration-500 ease-in-out">Flights</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <div class="row flex justify-between">
+                                        <div class="list">
+                                            <ul>
+                                                <li class="leading-5 m-2"><a href="javascript:void(0)"
+                                                        class="text-[13px]">Hotel List</a>
+                                                </li>
+                                                <li
+                                                    class="leading-5 m-2 hover:translate-x-3 transition duration-500 ease-in-out">
+                                                    <a href="javascript:void(0)"
+                                                        class="text-[13px] text-gray-500 hover:text-blue-600 transition duration-500 ease-in-out">Hotel
+                                                        List v1</a>
+                                                </li>
+                                                <li
+                                                    class="leading-5 m-2 hover:translate-x-3 transition duration-500 ease-in-out">
+                                                    <a href="javascript:void(0)"
+                                                        class="text-[13px] text-gray-500 hover:text-blue-600 transition duration-500 ease-in-out">Hotel
+                                                        List v2</a>
+                                                </li>
+                                                <li
+                                                    class="leading-5 m-2 hover:translate-x-3 transition duration-500 ease-in-out">
+                                                    <a href="javascript:void(0)"
+                                                        class="text-[13px] text-gray-500 hover:text-blue-600 transition duration-500 ease-in-out">Hotel
+                                                        List v3</a>
+                                                </li>
+                                                <li
+                                                    class="leading-5 m-2 hover:translate-x-3 transition duration-500 ease-in-out">
+                                                    <a href="javascript:void(0)"
+                                                        class="text-[13px] text-gray-500 hover:text-blue-600 transition duration-500 ease-in-out">Hotel
+                                                        List v4</a>
+                                                </li>
+                                                <li
+                                                    class="leading-5 m-2 hover:translate-x-3 transition duration-500 ease-in-out">
+                                                    <a href="javascript:void(0)"
+                                                        class="text-[13px] text-gray-500 hover:text-blue-600 transition duration-500 ease-in-out">Hotel
+                                                        List v5</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="list">
+                                            <ul>
+                                                <li class="leading-5 m-2"><a href="#" class="text-[13px]">Hotel
+                                                        Single</a></li>
+                                                <li
+                                                    class="leading-5 m-2 hover:translate-x-3 transition duration-500 ease-in-out">
+                                                    <a href="javascript:void(0)"
+                                                        class="text-[13px] text-gray-500 hover:text-blue-600 transition duration-500 ease-in-out">Hotel
+                                                        Single v1</a>
+                                                </li>
+                                                <li
+                                                    class="leading-5 m-2 hover:translate-x-3 transition duration-500 ease-in-out">
+                                                    <a href="javascript:void(0)"
+                                                        class="text-[13px] text-gray-500 hover:text-blue-600 transition duration-500 ease-in-out">Hotel
+                                                        Single v2</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="list">
+                                            <ul>
+                                                <li class="leading-5 m-2"><a href="#" class="text-[13px]">Hotel
+                                                        Booking</a></li>
+                                                <li
+                                                    class="leading-5 m-2 hover:translate-x-3 transition duration-500 ease-in-out">
+                                                    <a href="javascript:void(0)"
+                                                        class="text-[13px] text-gray-500 hover:text-blue-600 transition duration-500 ease-in-out">Booking
+                                                        page</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="img-box bg-cover bg-no-repeat bg-center w-[220px] h-[250px] p-5 rounded-md"
+                                            style="background-image: url('img/7.png');">
+                                            <h2 class="text-white font-semibold text-[20px] mb-5">Things to do on your
+                                                trip</h2>
+                                            <button
+                                                class="p-[7px_17px] bg-white rounded text-[13px] hover:bg-blue-600 hover:text-white transition duration-500 ease-in-out">Experinces</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="mx-3">
+                                <a href="javascript:void(0)"
+                                    class="text-white text-sm hover:text-blue-600 transition duration-500 ease-in-out">Destinations</a>
+                            </li>
+                            <li class="mx-3 drop relative">
+                                <a href="javascript:void(0)" class="text-white me-2 text-sm">Blog</a>
+                                <a href="javascript:void(0)" class="text-white text-sm"><i
+                                        class="fa-solid fa-sort-down"></i></a>
+                                <a href="javascript:void(0)"
+                                    class="absolute sub-manu text-white top-[110%] left-[25%] text-[25px] invisible opacity-0"
+                                    style="transition: .5s;"><i class="fa-solid fa-caret-up"></i></a>
+                                <ul class="sub-manu absolute top-[190%] bg-white p-3 w-[200px] rounded-md invisible opacity-0"
+                                    style="transition: .5s;">
+                                    <li
+                                        class="p-[3px_10px] hover:bg-sky-50 hover:text-blue-600 mr-3 hover:translate-x-2 rounded-md cursor-pointer transition duration-500 ease-in-out">
+                                        <a href="javascript:void(0)" class="text-[14px]">Blog list v1</a>
+                                    </li>
+                                    <li
+                                        class="p-[3px_10px] hover:bg-sky-50 hover:text-blue-600 mr-3 hover:translate-x-2 rounded-md cursor-pointer transition duration-500 ease-in-out">
+                                        <a href="javascript:void(0)" class="text-[14px]">Blog list v2</a>
+                                    </li>
+                                    <li
+                                        class="p-[3px_10px] hover:bg-sky-50 hover:text-blue-600 mr-3 hover:translate-x-2 rounded-md cursor-pointer transition duration-500 ease-in-out">
+                                        <a href="javascript:void(0)" class="text-[14px]">Blog single</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="mx-3 drop relative">
+                                <a href="javascript:void(0)" class="text-white me-2 text-sm">Pages</a>
+                                <a href="javascript:void(0)" class="text-white text-sm"><i
+                                        class="fa-solid fa-sort-down"></i></a>
+                                <a href="javascript:void(0)"
+                                    class="absolute sub-manu text-white top-[110%] left-[25%] text-[25px] invisible opacity-0"
+                                    style="transition: .5s;"><i class="fa-solid fa-caret-up"></i></a>
+                                <ul class="sub-manu absolute top-[190%] bg-white p-3 w-[200px] rounded-md invisible opacity-0"
+                                    style="transition: .5s;">
+                                    <li
+                                        class="p-[3px_10px] hover:bg-sky-50 hover:text-blue-600 mr-3 hover:translate-x-2 rounded-md cursor-pointer transition duration-500 ease-in-out">
+                                        <a href="javascript:void(0)" class="text-[14px]">404</a>
+                                    </li>
+                                    <li
+                                        class="p-[3px_10px] hover:bg-sky-50 hover:text-blue-600 mr-3 hover:translate-x-2 rounded-md cursor-pointer transition duration-500 ease-in-out">
+                                        <a href="javascript:void(0)" class="text-[14px]">About</a>
+                                    </li>
+                                    <li
+                                        class="p-[3px_10px] hover:bg-sky-50 hover:text-blue-600 mr-3 hover:translate-x-2 rounded-md cursor-pointer transition duration-500 ease-in-out">
+                                        <a href="javascript:void(0)" class="text-[14px]">Become expert</a>
+                                    </li>
+                                    <li
+                                        class="p-[3px_10px] hover:bg-sky-50 hover:text-blue-600 mr-3 hover:translate-x-2 rounded-md cursor-pointer transition duration-500 ease-in-out">
+                                        <a href="javascript:void(0)" class="text-[14px]">Help center</a>
+                                    </li>
+                                    <li
+                                        class="p-[3px_10px] hover:bg-sky-50 hover:text-blue-600 mr-3 hover:translate-x-2 rounded-md cursor-pointer transition duration-500 ease-in-out">
+                                        <a href="javascript:void(0)" class="text-[14px]">Login</a>
+                                    </li>
+                                    <li
+                                        class="p-[3px_10px] hover:bg-sky-50 hover:text-blue-600 mr-3 hover:translate-x-2 rounded-md cursor-pointer transition duration-500 ease-in-out">
+                                        <a href="javascript:void(0)" class="text-[14px]">Register</a>
+                                    </li>
+                                    <li
+                                        class="p-[3px_10px] hover:bg-sky-50 hover:text-blue-600 mr-3 hover:translate-x-2 rounded-md cursor-pointer transition duration-500 ease-in-out">
+                                        <a href="javascript:void(0)" class="text-[14px]">Terms</a>
+                                    </li>
+                                    <li
+                                        class="p-[3px_10px] hover:bg-sky-50 hover:text-blue-600 mr-3 hover:translate-x-2 rounded-md cursor-pointer transition duration-500 ease-in-out">
+                                        <a href="javascript:void(0)" class="text-[14px]">Invoice</a>
+                                    </li>
+                                    <li
+                                        class="p-[3px_10px] hover:bg-sky-50 hover:text-blue-600 mr-3 hover:translate-x-2 rounded-md cursor-pointer transition duration-500 ease-in-out">
+                                        <a href="javascript:void(0)" class="text-[14px]">UI elements</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="mx-3 drop relative">
+                                <a href="javascript:void(0)" class="text-white me-2 text-sm">Dashboard</a>
+                                <a href="javascript:void(0)" class="text-white text-sm"><i
+                                        class="fa-solid fa-sort-down"></i></a>
+                                <a href="javascript:void(0)"
+                                    class="absolute sub-manu text-white top-[110%] left-[25%] text-[25px] invisible opacity-0"
+                                    style="transition: .5s;"><i class="fa-solid fa-caret-up"></i></a>
+                                <ul class="sub-manu absolute top-[190%] bg-white p-3 w-[200px] rounded-md invisible opacity-0"
+                                    style="transition: .5s;">
+                                    <li
+                                        class="p-[3px_10px] hover:bg-sky-50 hover:text-blue-600 mr-3 hover:translate-x-2 rounded-md cursor-pointer transition duration-500 ease-in-out">
+                                        <a href="javascript:void(0)" class="text-[14px]">Dashboard</a>
+                                    </li>
+                                    <li
+                                        class="p-[3px_10px] hover:bg-sky-50 hover:text-blue-600 mr-3 hover:translate-x-2 rounded-md cursor-pointer transition duration-500 ease-in-out">
+                                        <a href="javascript:void(0)" class="text-[14px]">Booking</a>
+                                    </li>
+                                    <li
+                                        class="p-[3px_10px] hover:bg-sky-50 hover:text-blue-600 mr-3 hover:translate-x-2 rounded-md cursor-pointer transition duration-500 ease-in-out">
+                                        <a href="javascript:void(0)" class="text-[14px]">Settings</a>
+                                    </li>
+                                    <li
+                                        class="p-[3px_10px] hover:bg-sky-50 hover:text-blue-600 mr-3 hover:translate-x-2 rounded-md cursor-pointer transition duration-500 ease-in-out">
+                                        <a href="javascript:void(0)" class="text-[14px]">Wishlist</a>
+                                    </li>
+                                    <li
+                                        class="p-[3px_10px] hover:bg-sky-50 hover:text-blue-600 mr-3 hover:translate-x-2 rounded-md cursor-pointer transition duration-500 ease-in-out">
+                                        <a href="javascript:void(0)" class="text-[14px]">Vendor dashboard</a>
+                                    </li>
+                                    <li
+                                        class="p-[3px_10px] hover:bg-sky-50 hover:text-blue-600 mr-3 hover:translate-x-2 rounded-md cursor-pointer transition duration-500 ease-in-out">
+                                        <a href="javascript:void(0)" class="text-[14px]">Vendor add hotel</a>
+                                    </li>
+                                    <li
+                                        class="p-[3px_10px] hover:bg-sky-50 hover:text-blue-600 mr-3 hover:translate-x-2 rounded-md cursor-pointer transition duration-500 ease-in-out">
+                                        <a href="javascript:void(0)" class="text-[14px]">Vendor booking</a>
+                                    </li>
+                                    <li
+                                        class="p-[3px_10px] hover:bg-sky-50 hover:text-blue-600 mr-3 hover:translate-x-2 rounded-md cursor-pointer transition duration-500 ease-in-out">
+                                        <a href="javascript:void(0)" class="text-[14px]">Vendor hotels</a>
+                                    </li>
+                                    <li
+                                        class="p-[3px_10px] hover:bg-sky-50 hover:text-blue-600 mr-3 hover:translate-x-2 rounded-md cursor-pointer transition duration-500 ease-in-out">
+                                        <a href="javascript:void(0)" class="text-[14px]">Vendor recovery</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="mx-3">
+                                <a href="javascript:void(0)"
+                                    class="text-white me-2 text-sm hover:text-blue-600 transition duration-500 ease-in-out">Contact</a>
+                            </li>
+                            <li class="mx-3">
+                                <a href="javascript:void(0)"
+                                    class="text-white hover:text-blue-600 transition duration-500 ease-in-out"><i
+                                        class="fa-solid fa-magnifying-glass"></i></a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- ----------------------------- main-banner --------------------------------- -->
+
+    <section class="main-banner w-full h-[110vh] relative">
+        <div class="slid-banner">
+            <div>
+                <div class="banner w-full h-[110vh] flex items-center justify-center"
+                    style="background-image: url('img/bg.png'); background-position: center; background-size: cover; background-repeat: no-repeat;">
+                    <div class="banner-content text-center">
+                        <h3 class="text-[16px] font-semibold text-white">TOUR EXPERIENCE</h3>
+                        <h1 class="text-[70px] font-bold text-white">Find The Best Cruise <br> For You</h1>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <div class="banner  w-full h-[110vh] flex items-center justify-center"
+                    style="background-image: url('img/bg.png'); background-position: center; background-size: cover; background-repeat: no-repeat;">
+                    <div class="banner-content text-center ">
+                        <h3 class="text-[16px] font-semibold text-white">TOUR EXPERIENCE</h3>
+                        <h1 class="text-[70px] font-bold text-white">Find The Best Cruise <br> For You</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class=" banner-book absolute bottom-0 left-0 flex items-center justify-between w-full">
+            <div class="banner-booking bg-white p-5 flex items-center justify-end w-[56%] shadow-xl">
+                <div class="booking-box pe-20 border-r border-gray-300">
+                    <h4 class="text-black font-medium text-[14px]">Where to</h4>
+                    <span class="text-slate-500 text-[13px]">All Destination</span>
+                </div>
+                <div class="booking-box px-12 border-r border-gray-300">
+                    <h4 class="text-black font-medium text-[14px]">All Cruise Line</h4>
+                    <span class="text-slate-500 text-[13px]">Holland America Line</span>
+                </div>
+                <div class="booking-box px-12">
+                    <h4 class="text-black font-medium text-[14px]">Departure Month</h4>
+                    <span class="text-slate-500 text-[13px]">2 adults - 1 childeren - 1 room</span>
+                </div>
+                <div class="booking-box">
+                    <button
+                        class="p-[15px_30px] bg-[#F8D448] hover:bg-[#163C8C] rounded-md hover:text-white text-black font-[500] transition duration-500 ease-in-out flex">
+                        <span><i class="fa-solid fa-magnifying-glass"></i></span> &nbsp;&nbsp;
+                        <span>Search</span>
+                    </button>
+                </div>
+            </div>
+            <div class="scrolldown flex items-center pe-12">
+                <h4 class="text-end me-3">
+                    <span class="text-white font-medium block">Scroll Down</span>
+                    <span class="text-slate-300">to discover more</span>
+                </h4>
+                <span
+                    class="mouse block rounded-[50px] border-2 border-white-600 h-[50px] w-[30px] relative overflow-hidden cursor-pointer transition duration-500 ease-in-out">
+                    <span class="move absolute bg-white h-[7px] w-[7px] rounded-full left-[50%]"></span>
+                </span>
+            </div>
+        </div>
+    </section>
+
+    <!-- -------------------------- destinations-area ------------------------------------------ -->
+
+    <section class="destinations-area bg-white py-28">
+        <div class="xl:container xl:mx-auto xl:px-4">
+            <div class="destinations-title text-center mb-10 wow fadeInUp">
+                <h2 class="text-3xl font-bold mb-3">Popular Destinations</h2>
+                <span class="text-slate-500 font-medium">Interdum et malesuada fames ac ante ipsum</span>
+            </div>
+            <div class="destinations-content flex flex-wrap justify-evenly">
+                <div
+                    class="w-[170px] flex items-center p-3 bg-[#F5F5F5] cursor-pointer rounded hover:-translate-y-6 transition duration-500 ease-in-out wow fadeInUp">
+                    <h5 class="me-6 text-[18px]"><i class="fa-solid fa-location-dot"></i></h5>
+                    <div class="loction">
+                        <span class="font-medium block text-sm">New York</span>
+                        <span class="text-xs text-slate-500">4,090 properties</span>
+                    </div>
+                </div>
+                <div
+                    class="w-[170px] flex items-center p-3 bg-[#F5F5F5] cursor-pointer rounded hover:-translate-y-6 transition duration-500 ease-in-out wow fadeInUp">
+                    <h5 class="me-6 text-[18px]"><i class="fa-solid fa-location-dot"></i></h5>
+                    <div class="loction">
+                        <span class="font-medium block text-sm">London</span>
+                        <span class="text-xs text-slate-500">4,090 properties</span>
+                    </div>
+                </div>
+                <div
+                    class="w-[170px] flex items-center p-3 bg-[#F5F5F5] cursor-pointer rounded hover:-translate-y-6 transition duration-500 ease-in-out wow fadeInUp">
+                    <h5 class="me-6 text-[18px]"><i class="fa-solid fa-location-dot"></i></h5>
+                    <div class="loction">
+                        <span class="font-medium block text-sm">Los Angeles</span>
+                        <span class="text-xs text-slate-500">4,090 properties</span>
+                    </div>
+                </div>
+                <div
+                    class="w-[170px] flex items-center p-3 bg-[#F5F5F5] cursor-pointer rounded hover:-translate-y-6 transition duration-500 ease-in-out wow fadeInUp">
+                    <h5 class="me-6 text-[18px]"><i class="fa-solid fa-location-dot"></i></h5>
+                    <div class="loction">
+                        <span class="font-medium block text-sm">Paris</span>
+                        <span class="text-xs text-slate-500">4,090 properties</span>
+                    </div>
+                </div>
+                <div
+                    class="w-[170px] flex items-center p-3 bg-[#F5F5F5] cursor-pointer rounded hover:-translate-y-6 transition duration-500 ease-in-out wow fadeInUp">
+                    <h5 class="me-6 text-[18px]"><i class="fa-solid fa-location-dot"></i></h5>
+                    <div class="loction">
+                        <span class="font-medium block text-sm">Istanbul</span>
+                        <span class="text-xs text-slate-500">4,090 properties</span>
+                    </div>
+                </div>
+                <div
+                    class="w-[170px] flex items-center p-3 bg-[#F5F5F5] cursor-pointer rounded hover:-translate-y-6 transition duration-500 ease-in-out wow fadeInUp">
+                    <h5 class="me-6 text-[18px]"><i class="fa-solid fa-location-dot"></i></h5>
+                    <div class="loction">
+                        <span class="font-medium block text-sm">Rome</span>
+                        <span class="text-xs text-slate-500">4,090 properties</span>
+                    </div>
+                </div>
+                <div
+                    class="w-[170px] flex items-center p-3 bg-[#F5F5F5] cursor-pointer rounded hover:-translate-y-6 transition duration-500 ease-in-out wow fadeInUp">
+                    <h5 class="me-6 text-[18px]"><i class="fa-solid fa-location-dot"></i></h5>
+                    <div class="loction">
+                        <span class="font-medium block text-sm">Madrid</span>
+                        <span class="text-xs text-slate-500">4,090 properties</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ----------------------------------- Featured-area -------------------------------- -->
+
+    <section class="featured-area pb-[100px]">
+        <div class="xl:container xl:mx-auto xl:px-4">
+            <div class="featured-title text-center mb-10 wow fadeInUp">
+                <h2 class="text-3xl font-bold mb-3">Featured Cruise Deals</h2>
+                <span class="text-slate-500 font-medium">Interdum et malesuada fames ac ante ipsum</span>
+            </div>
+            <div class="featured-content flex flex-wrap">
+                <div class="w-3/12 px-3">
+                    <div class="featured-img h-60 mb-[5px] rounded-md overflow-hidden relative wow fadeInUp">
+                        <img src="img/1.png" alt=""
+                            class="w-full hover:scale-125 transition duration-500 ease-in-out rounded-md cursor-pointer">
+                        <div class="like-area flex items-center justify-between absolute top-[20px] w-full">
+                            <a href="#"
+                                class="p-[5px_15px] bg-[#051036] text-white rounded-[0_5px_5px_0] text-[12px]">CRUISE
+                                ONLY</a>
+                            <button
+                                class="w-[30px] h-[30px] flex items-center justify-center text-[13px] me-3 bg-white hover:bg-blue-600 hover:text-white ransition duration-500 ease-in-out rounded-full"><i
+                                    class="fa-regular fa-heart"></i></button>
+                        </div>
+                    </div>
+                    <div class="featured-c wow fadeInUp">
+                        <span class="text-xs text-slate-500">Norwegian Getawayy</span>
+                        <h3 class="font-semibold mt-[5px] inline-block">7 Night Cruise to the Western</h3><br>
+                        <span class="box font-semibold">Mediterranean</span>
+                        <div class="row flex flex-wrap mt-[10px]">
+                            <div class="w-1/3">
+                                <h4 class="font-[500] text-xs">Sailing Date</h4>
+                                <span class="text-xs text-slate-500">Southampton</span>
+                            </div>
+                            <div class="w-1/3">
+                                <h4 class="font-[500] text-xs">Departs</h4>
+                                <span class="text-xs text-slate-500">18/06/2022</span>
+                            </div>
+                            <div class="w-1/3">
+                                <h4 class="font-[500] text-xs">Ports (7)</h4>
+                                <span class="text-xs text-slate-500">Sete, Toulon...</span>
+                            </div>
+                        </div>
+                        <div class="row-2 flex justify-between items-center mt-[10px]">
+                            <div class="part-1">
+                                <span class="text-xs text-amber-400"><i class="fa-solid fa-star"></i></span>
+                                <span class="text-xs font-[500]">4.82</span>
+                                <span class="text-xs text-slate-500">94 reviews</span>
+                            </div>
+                            <div class="part-1">
+                                <span class="text-xs text-slate-500">From</span>
+                                <span class="text-xs font-[600]">US$72</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-3/12 px-3">
+                    <div class="featured-img  h-60 rounded-md overflow-hidden relative wow fadeInUp">
+                        <div class="shipp">
+                            <img src="img/2.png" alt=""
+                                class="w-full hover:scale-125 transition duration-500 ease-in-out rounded-md cursor-pointer">
+                            <img src="img/1.png" alt=""
+                                class="w-full hover:scale-125 transition duration-500 ease-in-out rounded-md cursor-pointer">
+                            <img src="img/3.png" alt=""
+                                class="w-full hover:scale-125 transition duration-500 ease-in-out rounded-md cursor-pointer">
+                        </div>
+                        <div class="like-area flex items-center justify-between absolute top-[20px] w-full">
+                            <a href="#"></a>
+                            <button
+                                class="w-[30px] h-[30px] flex items-center justify-center text-[13px] me-3 bg-white hover:bg-blue-600 hover:text-white ransition duration-500 ease-in-out rounded-full"><i
+                                    class="fa-regular fa-heart"></i></button>
+                        </div>
+                    </div>
+                    <div class="featured-c wow fadeInUp">
+                        <span class="text-xs text-slate-500">Norwegian Getawayy</span>
+                        <h3 class="font-semibold mt-[5px] inline-block">12 Night Cruise to the British Isles &</h3><br>
+                        <span class="box font-semibold">Western Europe</span>
+                        <div class="row flex flex-wrap mt-[10px]">
+                            <div class="w-1/3">
+                                <h4 class="font-[500] text-xs">Sailing Date</h4>
+                                <span class="text-xs text-slate-500">Southampton</span>
+                            </div>
+                            <div class="w-1/3">
+                                <h4 class="font-[500] text-xs">Departs</h4>
+                                <span class="text-xs text-slate-500">18/06/2022</span>
+                            </div>
+                            <div class="w-1/3">
+                                <h4 class="font-[500] text-xs">Ports (7)</h4>
+                                <span class="text-xs text-slate-500">Sete, Toulon...</span>
+                            </div>
+                        </div>
+                        <div class="row-2 flex justify-between items-center mt-[10px]">
+                            <div class="part-1">
+                                <span class="text-xs text-amber-400"><i class="fa-solid fa-star"></i></span>
+                                <span class="text-xs font-[500]">4.82</span>
+                                <span class="text-xs text-slate-500">94 reviews</span>
+                            </div>
+                            <div class="part-1">
+                                <span class="text-xs text-slate-500">From</span>
+                                <span class="text-xs font-[600]">US$72</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-3/12 px-3">
+                    <div class="featured-img h-60 rounded-md overflow-hidden relative wow fadeInUp">
+                        <img src="img/3.png" alt=""
+                            class="w-full hover:scale-125 transition duration-500 ease-in-out rounded-md cursor-pointer">
+                        <div class="like-area flex items-center justify-between absolute top-[20px] w-full">
+                            <a href="#"
+                                class="p-[5px_15px] bg-[#3554D1] text-white rounded-[0_5px_5px_0] text-[12px]">BEST
+                                SELLER</a>
+                            <button
+                                class="w-[30px] h-[30px] flex items-center justify-center text-[13px] me-3 bg-white hover:bg-blue-600 hover:text-white ransition duration-500 ease-in-out rounded-full"><i
+                                    class="fa-regular fa-heart"></i></button>
+                        </div>
+                    </div>
+                    <div class="featured-c wow fadeInUp">
+                        <span class="text-xs text-slate-500">Norwegian Getawayy</span>
+                        <h3 class="font-semibold mt-[5px] inline-block">11 Night Cruise to the Eastern</h3><br>
+                        <span class="box font-semibold">Mediterranean</span>
+                        <div class="row flex flex-wrap mt-[10px]">
+                            <div class="w-1/3">
+                                <h4 class="font-[500] text-xs">Sailing Date</h4>
+                                <span class="text-xs text-slate-500">Southampton</span>
+                            </div>
+                            <div class="w-1/3">
+                                <h4 class="font-[500] text-xs">Departs</h4>
+                                <span class="text-xs text-slate-500">18/06/2022</span>
+                            </div>
+                            <div class="w-1/3">
+                                <h4 class="font-[500] text-xs">Ports (7)</h4>
+                                <span class="text-xs text-slate-500">Sete, Toulon...</span>
+                            </div>
+                        </div>
+                        <div class="row-2 flex justify-between items-center mt-[10px]">
+                            <div class="part-1">
+                                <span class="text-xs text-amber-400"><i class="fa-solid fa-star"></i></span>
+                                <span class="text-xs font-[500]">4.82</span>
+                                <span class="text-xs text-slate-500">94 reviews</span>
+                            </div>
+                            <div class="part-1">
+                                <span class="text-xs text-slate-500">From</span>
+                                <span class="text-xs font-[600]">US$72</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-3/12 px-3">
+                    <div class="featured-img h-60 rounded-md overflow-hidden relative wow fadeInUp">
+                        <img src="img/1.png" alt=""
+                            class="w-full hover:scale-125 transition duration-500 ease-in-out rounded-md cursor-pointer">
+                        <div class="like-area flex items-center justify-between absolute top-[20px] w-full">
+                            <a href="#"
+                                class="p-[5px_15px] bg-[#F8D448] text-black rounded-[0_5px_5px_0] text-[12px]">TOP
+                                RATED</a>
+                            <button
+                                class="w-[30px] h-[30px] flex items-center justify-center text-[13px] me-3 bg-white hover:bg-blue-600 hover:text-white ransition duration-500 ease-in-out rounded-full"><i
+                                    class="fa-regular fa-heart"></i></button>
+                        </div>
+                    </div>
+                    <div class="featured-c wow fadeInUp">
+                        <span class="text-xs text-slate-500">Norwegian Getawayy</span>
+                        <h3 class="font-semibold mt-[5px] inline-block">13 Night Cruise to the Baltic Sea</h3><br>
+                        <span class="box font-semibold">Western Europe</span>
+                        <div class="row flex flex-wrap mt-[10px]">
+                            <div class="w-1/3">
+                                <h4 class="font-[500] text-xs">Sailing Date</h4>
+                                <span class="text-xs text-slate-500">Southampton</span>
+                            </div>
+                            <div class="w-1/3">
+                                <h4 class="font-[500] text-xs">Departs</h4>
+                                <span class="text-xs text-slate-500">18/06/2022</span>
+                            </div>
+                            <div class="w-1/3">
+                                <h4 class="font-[500] text-xs">Ports (7)</h4>
+                                <span class="text-xs text-slate-500">Sete, Toulon...</span>
+                            </div>
+                        </div>
+                        <div class="row-2 flex justify-between items-center mt-[10px]">
+                            <div class="part-1">
+                                <span class="text-xs text-amber-400"><i class="fa-solid fa-star"></i></span>
+                                <span class="text-xs font-[500]">4.82</span>
+                                <span class="text-xs text-slate-500">94 reviews</span>
+                            </div>
+                            <div class="part-1">
+                                <span class="text-xs text-slate-500">From</span>
+                                <span class="text-xs font-[600]">US$72</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ------------------------------------ World Leading ----------------------------- -->
+
+    <section class="world-leading">
+        <div class="row flex flex-wrap">
+            <div class="w-1/3 h-full py-[80px] z-[1]">
+                <div class="row flex items-center -me-[100px]">
+                    <div
+                        class="leanding-img me-2 cursor-pointer hover:-translate-y-6 overflow-hidden transition duration-500 ease-in-out wow fadeInUp">
+                        <img src="img/1 (1).png" alt="img"
+                            class="w-full hover:scale-125 transition duration-500 ease-in-out" />
+                    </div>
+                    <div
+                        class="leanding-img ms-2 cursor-pointer hover:-translate-y-6 overflow-hidden transition duration-500 ease-in-out wow fadeInUp">
+                        <img src="img/2 (1).png" alt="img"
+                            class="w-full hover:scale-125 transition duration-500 ease-in-out" />
+                    </div>
+                </div>
+            </div>
+            <div class="w-2/3 bg-[#F5F5F5] p-[80px] flex items-center justify-center">
+                <div class="leading-content w-[500px]">
+                    <h2 class="text-3xl font-bold mb-5 wow fadeInUp">GoTrip is a World Leading Cruise Booking Platform
+                    </h2>
+                    <p class="text-[15px] text-slate-500 mb-5 leading-7 wow fadeInUp">Ut enim ad minim veniam, quis
+                        nostrud
+                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                        reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                    <button
+                        class="p-[5px_40px] bg-[#F8D448] hover:bg-[#163C8C] rounded-md hover:text-white text-black font-[500] transition duration-500 ease-in-out flex items-center wow fadeInUp">
+                        <span class="text-[14px]">Learn More</span> &nbsp;
+                        <span class="text-[26px]">&#10138;</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ---------------------------- Choose Us --------------------------------- -->
+
+    <section class="choose-us pt-[70px] pb-[100px]">
+        <div class="xl:container xl:mx-auto xl:px-4">
+            <div class="row flex flex-wrap">
+                <div class="w-2/5">
+                    <div class="choose-content w-[400px]">
+                        <h2 class="text-3xl font-bold mb-3 wow fadeInUp">Why Choose Us</h2>
+                        <span class="text-[15px] text-slate-500 mb-8 leading-7 wow fadeInUp">These popular destinations
+                            have a lot to offer</span>
+                        <p class="text-[15px] text-black my-8 leading-7 wow fadeInUp">Ut enim ad minim veniam, quis
+                            nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+                            irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                        </p>
+                        <button
+                            class="p-[5px_40px] bg-[#F8D448] hover:bg-[#163C8C] rounded-md hover:text-white text-black font-[500] transition duration-500 ease-in-out flex items-center wow fadeInUp">
+                            <span class="text-[14px]">Learn More</span> &nbsp;
+                            <span class="text-[26px]">&#10138;</span>
+                        </button>
+                    </div>
+                </div>
+                <div class="w-3/5">
+                    <div class="row flex flex-wrap">
+                        <div class="w-1/2 p-[0_15px_30px]">
+                            <div
+                                class="us-content hover:-translate-y-3 transition duration-500 ease-in-out cursor-pointer wow fadeInUp">
+                                <div class="us-img mb-3">
+                                    <img src="img/1.svg" alt="svg" />
+                                </div>
+                                <h3 class="text-[18px] font-[500] mb-3">Best Price Guarantee</h3>
+                                <p class="text-[15px] text-slate-500">Lorem ipsum dolor sit amet, <br> consectetur
+                                    adipiscing elit.</p>
+                            </div>
+                        </div>
+                        <div class="w-1/2 p-[0_15px_30px]">
+                            <div
+                                class="us-content hover:-translate-y-3 transition duration-500 ease-in-out cursor-pointer wow fadeInUp">
+                                <div class="us-img mb-3">
+                                    <img src="img/2.svg" alt="svg" />
+                                </div>
+                                <h3 class="text-[18px] font-[500] mb-3">Best Price Guarantee</h3>
+                                <p class="text-[15px] text-slate-500">Lorem ipsum dolor sit amet, <br> consectetur
+                                    adipiscing elit.</p>
+                            </div>
+                        </div>
+                        <div class="w-1/2 p-[30px_15px_0]">
+                            <div
+                                class="us-content hover:-translate-y-3 transition duration-500 ease-in-out cursor-pointer wow fadeInUp">
+                                <div class="us-img mb-3">
+                                    <img src="img/3.svg" alt="svg" />
+                                </div>
+                                <h3 class="text-[18px] font-[500] mb-3">Best Price Guarantee</h3>
+                                <p class="text-[15px] text-slate-500">Lorem ipsum dolor sit amet, <br> consectetur
+                                    adipiscing elit.</p>
+                            </div>
+                        </div>
+                        <div class="w-1/2 p-[30px_15px_0]">
+                            <div
+                                class="us-content hover:-translate-y-3 transition duration-500 ease-in-out cursor-pointer wow fadeInUp">
+                                <div class="us-img mb-3">
+                                    <img src="img/4.svg" alt="svg" />
+                                </div>
+                                <h3 class="text-[18px] font-[500] mb-3">Best Price Guarantee</h3>
+                                <p class="text-[15px] text-slate-500">Lorem ipsum dolor sit amet, <br> consectetur
+                                    adipiscing elit.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ------------------------------------- Recommended ------------------------------------ -->
+
+    <section class="recommended pb-[100px]">
+        <div class="xl:container xl:mx-auto xl:px-4">
+            <div class="recommended-title text-center mb-10 wow fadeInUp">
+                <h2 class="text-3xl font-bold mb-3">Recommended Cruise</h2>
+                <span class="text-slate-500 font-medium">Interdum et malesuada fames ac ante ipsum</span>
+            </div>
+            <div class="row flex flex-wrap">
+                <div class="w-1/3 px-3">
+                    <div class="featured-img h-80 mb-[5px] rounded-md overflow-hidden relative wow fadeInUp">
+                        <img src="img/1.png" alt=""
+                            class="w-full hover:scale-125 transition duration-500 ease-in-out rounded-md cursor-pointer">
+                        <div class="like-area flex items-center justify-between absolute top-[20px] w-full">
+                            <a href="#"
+                                class="p-[5px_15px] bg-[#051036] text-white rounded-[0_5px_5px_0] text-[12px]">CRUISE
+                                ONLY</a>
+                            <button
+                                class="w-[30px] h-[30px] flex items-center justify-center text-[13px] me-3 bg-white hover:bg-blue-600 hover:text-white ransition duration-500 ease-in-out rounded-full"><i
+                                    class="fa-regular fa-heart"></i></button>
+                        </div>
+                    </div>
+                    <div class="featured-c wow fadeInUp">
+                        <span class="text-xs text-slate-500 block">Norwegian Getawayy</span>
+                        <h3 class="font-semibold mt-[5px] inline-block">7 Night Cruise to the Western</h3><br>
+                        <span class="box font-semibold">Mediterranean</span>
+                        <div class="row flex flex-wrap mt-[10px]">
+                            <div class="w-1/3">
+                                <h4 class="font-[500] text-xs">Sailing Date</h4>
+                                <span class="text-xs text-slate-500">Southampton</span>
+                            </div>
+                            <div class="w-1/3">
+                                <h4 class="font-[500] text-xs">Departs</h4>
+                                <span class="text-xs text-slate-500">18/06/2022</span>
+                            </div>
+                            <div class="w-1/3">
+                                <h4 class="font-[500] text-xs">Ports (7)</h4>
+                                <span class="text-xs text-slate-500">Sete, Toulon...</span>
+                            </div>
+                        </div>
+                        <div class="row-2 flex justify-between items-center mt-[10px]">
+                            <div class="part-1">
+                                <span class="text-xs text-amber-400"><i class="fa-solid fa-star"></i></span>
+                                <span class="text-xs font-[500]">4.82</span>
+                                <span class="text-xs text-slate-500">94 reviews</span>
+                            </div>
+                            <div class="part-1">
+                                <span class="text-xs text-slate-500">From</span>
+                                <span class="text-xs font-[600]">US$72</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-1/3 px-3">
+                    <div class="featured-img  h-80 rounded-md overflow-hidden relative wow fadeInUp">
+                        <div class="shipp">
+                            <img src="img/2.png" alt=""
+                                class="w-full hover:scale-125 transition duration-500 ease-in-out rounded-md cursor-pointer">
+                            <img src="img/1.png" alt=""
+                                class="w-full hover:scale-125 transition duration-500 ease-in-out rounded-md cursor-pointer">
+                            <img src="img/3.png" alt=""
+                                class="w-full hover:scale-125 transition duration-500 ease-in-out rounded-md cursor-pointer">
+                        </div>
+                        <div class="like-area flex items-center justify-between absolute top-[20px] w-full">
+                            <a href="#"></a>
+                            <button
+                                class="w-[30px] h-[30px] flex items-center justify-center text-[13px] me-3 bg-white hover:bg-blue-600 hover:text-white ransition duration-500 ease-in-out rounded-full"><i
+                                    class="fa-regular fa-heart"></i></button>
+                        </div>
+                    </div>
+                    <div class="featured-c wow fadeInUp">
+                        <span class="text-xs text-slate-500 block">Norwegian Getawayy</span>
+                        <h3 class="font-semibold mt-[5px] inline-block">12 Night Cruise to the British Isles &</h3><br>
+                        <span class="box font-semibold">Western Europe</span>
+                        <div class="row flex flex-wrap mt-[10px]">
+                            <div class="w-1/3">
+                                <h4 class="font-[500] text-xs">Sailing Date</h4>
+                                <span class="text-xs text-slate-500">Southampton</span>
+                            </div>
+                            <div class="w-1/3">
+                                <h4 class="font-[500] text-xs">Departs</h4>
+                                <span class="text-xs text-slate-500">18/06/2022</span>
+                            </div>
+                            <div class="w-1/3">
+                                <h4 class="font-[500] text-xs">Ports (7)</h4>
+                                <span class="text-xs text-slate-500">Sete, Toulon...</span>
+                            </div>
+                        </div>
+                        <div class="row-2 flex justify-between items-center mt-[10px]">
+                            <div class="part-1">
+                                <span class="text-xs text-amber-400"><i class="fa-solid fa-star"></i></span>
+                                <span class="text-xs font-[500]">4.82</span>
+                                <span class="text-xs text-slate-500">94 reviews</span>
+                            </div>
+                            <div class="part-1">
+                                <span class="text-xs text-slate-500">From</span>
+                                <span class="text-xs font-[600]">US$72</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-1/3 px-3">
+                    <div class="featured-img h-80 rounded-md overflow-hidden relative wow fadeInUp">
+                        <img src="img/3.png" alt=""
+                            class="w-full hover:scale-125 transition duration-500 ease-in-out rounded-md cursor-pointer">
+                        <div class="like-area flex items-center justify-between absolute top-[20px] w-full">
+                            <a href="#"
+                                class="p-[5px_15px] bg-[#3554D1] text-white rounded-[0_5px_5px_0] text-[12px]">BEST
+                                SELLER</a>
+                            <button
+                                class="w-[30px] h-[30px] flex items-center justify-center text-[13px] me-3 bg-white hover:bg-blue-600 hover:text-white ransition duration-500 ease-in-out rounded-full"><i
+                                    class="fa-regular fa-heart"></i></button>
+                        </div>
+                    </div>
+                    <div class="featured-c wow fadeInUp">
+                        <span class="text-xs text-slate-500 block">Norwegian Getawayy</span>
+                        <h3 class="font-semibold mt-[5px] inline-block">11 Night Cruise to the Eastern</h3><br>
+                        <span class="box font-semibold">Mediterranean</span>
+                        <div class="row flex flex-wrap mt-[10px]">
+                            <div class="w-1/3">
+                                <h4 class="font-[500] text-xs">Sailing Date</h4>
+                                <span class="text-xs text-slate-500">Southampton</span>
+                            </div>
+                            <div class="w-1/3">
+                                <h4 class="font-[500] text-xs">Departs</h4>
+                                <span class="text-xs text-slate-500">18/06/2022</span>
+                            </div>
+                            <div class="w-1/3">
+                                <h4 class="font-[500] text-xs">Ports (7)</h4>
+                                <span class="text-xs text-slate-500">Sete, Toulon...</span>
+                            </div>
+                        </div>
+                        <div class="row-2 flex justify-between items-center mt-[10px]">
+                            <div class="part-1">
+                                <span class="text-xs text-amber-400"><i class="fa-solid fa-star"></i></span>
+                                <span class="text-xs font-[500]">4.82</span>
+                                <span class="text-xs text-slate-500">94 reviews</span>
+                            </div>
+                            <div class="part-1">
+                                <span class="text-xs text-slate-500">From</span>
+                                <span class="text-xs font-[600]">US$72</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- -------------------------------- review-area ----------------------------------- -->
+
+    <section class="review-area py-[100px] flex items-center justify-center bg-cover bg-no-repeat bg-center"
+        style="background-image: url('img/11.png'); background-attachment: fixed;">
+        <div class="review-box review w-[700px] text-center">
+            <div class="review-content p-12">
+                <img src="img/quote-2.svg" alt="quote" class="w-[8%] ms-[45%] mb-8 wow fadeInUp" />
+                <p style="font-family: cursive;" class="text-white text-[20px] mb-10 wow fadeInUp">"Our family was
+                    traveling via bullet train between cities in Japan with our luggage - the location for this hotel
+                    made that so easy. Agoda price was fantastic."</p>
+                <h3 class="text-white font-bold wow fadeInUp">Ali Tufan</h3>
+                <span class="text-white text-[15px] wow fadeInUp">Product Manager, Apple Inc</span>
+            </div>
+            <div class="review-content p-12">
+                <img src="img/quote-2.svg" alt="quote" class="w-[8%] ms-[45%] mb-8 wow fadeInUp" />
+                <p style="font-family: cursive;" class="text-white text-[20px] mb-10 wow fadeInUp">"Our family was
+                    traveling via bullet train between cities in Japan with our luggage - the location for this hotel
+                    made that so easy. Agoda price was fantastic."</p>
+                <h3 class="text-white font-bold wow fadeInUp">Ali Tufan</h3>
+                <span class="text-white text-[15px] wow fadeInUp">Product Manager, Apple Inc</span>
+            </div>
+            <div class="review-content p-12">
+                <img src="img/quote-2.svg" alt="quote" class="w-[8%] ms-[45%] mb-8 wow fadeInUp" />
+                <p style="font-family: cursive;" class="text-white text-[20px] mb-10 wow fadeInUp">"Our family was
+                    traveling via bullet train between cities in Japan with our luggage - the location for this hotel
+                    made that so easy. Agoda price was fantastic."</p>
+                <h3 class="text-white font-bold wow fadeInUp">Ali Tufan</h3>
+                <span class="text-white text-[15px] wow fadeInUp">Product Manager, Apple Inc</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- -------------------------------------- inspiration ---------------------------------------- -->
+
+    <section class="inspiration py-[100px]">
+        <div class="xl:container xl:mx-auto xl:px-4">
+            <div class="inspiration-title text-center mb-10 wow fadeInUp">
+                <h2 class="text-3xl font-bold mb-3">Get inspiration for your next trip</h2>
+                <span class="text-slate-500 font-medium">Interdum et malesuada fames ac ante ipsum</span>
+            </div>
+            <div class="row flex flex-wrap">
+                <div class="w-3/12 px-3 hover:-translate-y-3 transition duration-500 ease-in-out">
+                    <div class="inspiration-img h-72 mb-[5px] rounded-[7px_7px_0_0] overflow-hidden wow fadeInUp">
+                        <img src="img/1 (2).png" alt=""
+                            class="w-full h-72 hover:scale-125 transition duration-500 ease-in-out rounded-[7px_7px_0_0] cursor-pointer">
+                    </div>
+                    <div class="inspiration-content cursor-pointer p-3 bg-white shadow-md rounded-[0_0_7px_7px]">
+                        <h4 class="font-semibold text-[14px] wow fadeInUp">10 European ski destinations you should visit
+                            this winter</h4>
+                        <span class="text-xs text-slate-500 wow fadeInUp">April 06, 2022</span>
+                    </div>
+                </div>
+                <div class="w-3/12 px-3 hover:-translate-y-3 transition duration-500 ease-in-out">
+                    <div class="inspiration-img h-72 mb-[5px] rounded-[7px_7px_0_0] overflow-hidden wow fadeInUp">
+                        <img src="img/2 (2).png" alt=""
+                            class="w-full h-72 hover:scale-125 transition duration-500 ease-in-out rounded-[7px_7px_0_0] cursor-pointer">
+                    </div>
+                    <div class="inspiration-content cursor-pointer p-3 bg-white shadow-md rounded-[0_0_7px_7px]">
+                        <h4 class="font-semibold text-[14px] wow fadeInUp">Booking travel during Corona: good advice in
+                            an uncertain time</h4>
+                        <span class="text-xs text-slate-500 wow fadeInUp">April 06, 2022</span>
+                    </div>
+                </div>
+                <div class="w-3/12 px-3 hover:-translate-y-3 transition duration-500 ease-in-out">
+                    <div class="inspiration-img h-72 mb-[5px] rounded-[7px_7px_0_0] overflow-hidden wow fadeInUp">
+                        <img src="img/3 (1).png" alt=""
+                            class="w-full h-72 hover:scale-125 transition duration-500 ease-in-out rounded-[7px_7px_0_0] cursor-pointer">
+                    </div>
+                    <div class="inspiration-content cursor-pointer p-3 bg-white shadow-md rounded-[0_0_7px_7px]">
+                        <h4 class="font-semibold text-[14px] wow fadeInUp">Where can I go? 5 amazing countries that are
+                            open right now</h4>
+                        <span class="text-xs text-slate-500 wow fadeInUp">April 06, 2022</span>
+                    </div>
+                </div>
+                <div class="w-3/12 px-3 hover:-translate-y-3 transition duration-500 ease-in-out">
+                    <div class="inspiration-img h-72 mb-[5px] rounded-[7px_7px_0_0] overflow-hidden wow fadeInUp">
+                        <img src="img/4.png" alt=""
+                            class="w-full h-72 hover:scale-125 transition duration-500 ease-in-out rounded-[7px_7px_0_0] cursor-pointer">
+                    </div>
+                    <div class="inspiration-content cursor-pointer p-3 bg-white shadow-md rounded-[0_0_7px_7px]">
+                        <h4 class="font-semibold text-[14px] wow fadeInUp">The best times & places to see the Northern
+                            Lights in Iceland</h4>
+                        <span class="text-xs text-slate-500 wow fadeInUp">April 06, 2022</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ------------------------------------- footer ---------------------------------------- -->
+
+    <footer class="bg-[#3554D1] py-12">
+        <div class="xl:container xl:mx-auto xl:px-4">
+            <div class="row flex items-center justify-between pb-[100px]">
+                <div class="foot-title flex items-center">
+                    <img src="img/email.png" alt="email">
+                    <div class="foottitle ms-4">
+                        <h2 class="font-bold text-[23px] text-white wow fadeInUp">Your Travel Journey Starts Here</h2>
+                        <span class="font-medium text-white text-[14px] wow fadeInUp">Sign up and we'll send the best
+                            deals to you</span>
+                    </div>
+                </div>
+                <form action="">
+                    <input type="email" name="email" placeholder="Email"
+                        class="w-[250px] p-3 rounded-md outline-0 me-2 wow fadeInUp" />
+                    <button
+                        class="p-[14px_20px] bg-[#F8D448] rounded-md font-[550] text-[13px] wow fadeInUp">Subscribe</button>
+                </form>
+            </div>
+            <div class="row flex flex-wrap">
+                <div class="w-1/5">
+                    <h4 class="font-bold text-[15px] text-white pb-9 wow fadeInUp">Contact Us</h4>
+                    <div class="number pb-8">
+                        <span class="text-[12px] text-white block wow fadeInUp">Toll Free Customer Care</span>
+                        <a href="javascript:void(0)"
+                            class="font-medium text-[17px] text-white hover:text-blue-600 transition duration-500 ease-in-out wow fadeInUp">+(1)
+                            123 456 7890</a>
+                    </div>
+                    <div class="email pb-8">
+                        <span class="text-[12px] text-white block wow fadeInUp">Need live support?</span>
+                        <a href="javascript:void(0)"
+                            class="font-medium text-[17px] text-white hover:text-blue-600 transition duration-500 ease-in-out wow fadeInUp">hi@gotrip.com</a>
+                    </div>
+                </div>
+                <div class="w-1/5">
+                    <h4 class="font-bold text-[15px] text-white pb-8 wow fadeInUp">Company</h4>
+                    <ul>
+                        <li class="leading-8 hover:translate-x-3 transition duration-500 ease-in-out wow fadeInUp"><a
+                                href="javascript:void(0)"
+                                class="font-[500] text-[15px] text-white hover:text-blue-600 transition duration-500 ease-in-out">About
+                                Us</a></li>
+                        <li class="leading-8 hover:translate-x-3 transition duration-500 ease-in-out wow fadeInUp"><a
+                                href="javascript:void(0)"
+                                class="font-[500] text-[15px] text-white hover:text-blue-600 transition duration-500 ease-in-out">Careers</a>
+                        </li>
+                        <li class="leading-8 hover:translate-x-3 transition duration-500 ease-in-out wow fadeInUp"><a
+                                href="javascript:void(0)"
+                                class="font-[500] text-[15px] text-white hover:text-blue-600 transition duration-500 ease-in-out">Blog</a>
+                        </li>
+                        <li class="leading-8 hover:translate-x-3 transition duration-500 ease-in-out wow fadeInUp"><a
+                                href="javascript:void(0)"
+                                class="font-[500] text-[15px] text-white hover:text-blue-600 transition duration-500 ease-in-out">Press</a>
+                        </li>
+                        <li class="leading-8 hover:translate-x-3 transition duration-500 ease-in-out wow fadeInUp"><a
+                                href="javascript:void(0)"
+                                class="font-[500] text-[15px] text-white hover:text-blue-600 transition duration-500 ease-in-out">Gift
+                                Cards</a></li>
+                        <li class="leading-8 hover:translate-x-3 transition duration-500 ease-in-out wow fadeInUp"><a
+                                href="javascript:void(0)"
+                                class="font-[500] text-[15px] text-white hover:text-blue-600 transition duration-500 ease-in-out">Magazine</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="w-1/5">
+                    <h4 class="font-bold text-[15px] text-white pb-8 wow fadeInUp">Support</h4>
+                    <ul>
+                        <li class="leading-8 hover:translate-x-3 transition duration-500 ease-in-out wow fadeInUp"><a
+                                href="javascript:void(0)"
+                                class="font-[500] text-[15px] text-white hover:text-blue-600 transition duration-500 ease-in-out">Contact</a>
+                        </li>
+                        <li class="leading-8 hover:translate-x-3 transition duration-500 ease-in-out wow fadeInUp"><a
+                                href="javascript:void(0)"
+                                class="font-[500] text-[15px] text-white hover:text-blue-600 transition duration-500 ease-in-out">Legal
+                                Notice</a></li>
+                        <li class="leading-8 hover:translate-x-3 transition duration-500 ease-in-out wow fadeInUp"><a
+                                href="javascript:void(0)"
+                                class="font-[500] text-[15px] text-white hover:text-blue-600 transition duration-500 ease-in-out">Privacy
+                                Policy</a></li>
+                        <li class="leading-8 hover:translate-x-3 transition duration-500 ease-in-out wow fadeInUp"><a
+                                href="javascript:void(0)"
+                                class="font-[500] text-[15px] text-white hover:text-blue-600 transition duration-500 ease-in-out">Terms
+                                and Conditions</a></li>
+                        <li class="leading-8 hover:translate-x-3 transition duration-500 ease-in-out wow fadeInUp"><a
+                                href="javascript:void(0)"
+                                class="font-[500] text-[15px] text-white hover:text-blue-600 transition duration-500 ease-in-out">Sitemap</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="w-1/5">
+                    <h4 class="font-bold text-[15px] text-white pb-8 wow fadeInUp">Other Services</h4>
+                    <ul>
+                        <li class="leading-8 hover:translate-x-3 transition duration-500 ease-in-out wow fadeInUp"><a
+                                href="javascript:void(0)"
+                                class="font-[500] text-[15px] text-white hover:text-blue-600 transition duration-500 ease-in-out">Car
+                                hire</a></li>
+                        <li class="leading-8 hover:translate-x-3 transition duration-500 ease-in-out wow fadeInUp"><a
+                                href="javascript:void(0)"
+                                class="font-[500] text-[15px] text-white hover:text-blue-600 transition duration-500 ease-in-out">Activity
+                                Finder</a></li>
+                        <li class="leading-8 hover:translate-x-3 transition duration-500 ease-in-out wow fadeInUp"><a
+                                href="javascript:void(0)"
+                                class="font-[500] text-[15px] text-white hover:text-blue-600 transition duration-500 ease-in-out">Tour
+                                List</a></li>
+                        <li class="leading-8 hover:translate-x-3 transition duration-500 ease-in-out wow fadeInUp"><a
+                                href="javascript:void(0)"
+                                class="font-[500] text-[15px] text-white hover:text-blue-600 transition duration-500 ease-in-out">Flight
+                                finder</a></li>
+                        <li class="leading-8 hover:translate-x-3 transition duration-500 ease-in-out wow fadeInUp"><a
+                                href="javascript:void(0)"
+                                class="font-[500] text-[15px] text-white hover:text-blue-600 transition duration-500 ease-in-out">Cruise
+                                Ticket</a></li>
+                        <li class="leading-8 hover:translate-x-3 transition duration-500 ease-in-out wow fadeInUp"><a
+                                href="javascript:void(0)"
+                                class="font-[500] text-[15px] text-white hover:text-blue-600 transition duration-500 ease-in-out">Holiday
+                                Rental</a></li>
+                        <li class="leading-8 hover:translate-x-3 transition duration-500 ease-in-out wow fadeInUp"><a
+                                href="javascript:void(0)"
+                                class="font-[500] text-[15px] text-white hover:text-blue-600 transition duration-500 ease-in-out">Travel
+                                Agents</a></li>
+                    </ul>
+                </div>
+                <div class="w-1/5">
+                    <h4 class="font-bold text-[15px] text-white pb-9 wow fadeInUp">Mobile</h4>
+                    <div
+                        class="app flex items-center cursor-pointer border border-[#536ED8] p-3 w-[180px] rounded-md mb-5 hover:translate-x-3 transition duration-500 ease-in-out wow fadeInUp">
+                        <a href="javascript:void(0)" class="text-white text-[25px] me-6"><i
+                                class="fa-brands fa-apple"></i></a>
+                        <div class="app-content">
+                            <span class="block text-white text-[13px]">Download on the</span>
+                            <span class="block font-medium text-white text-[13px]">Apple Store</span>
+                        </div>
+                    </div>
+                    <div
+                        class="app flex items-center cursor-pointer border border-[#536ED8] p-3 w-[180px] rounded-md hover:translate-x-3 transition duration-500 ease-in-out wow fadeInUp">
+                        <a href="javascript:void(0)" class="text-white text-[25px] me-6"><i
+                                class="fa-brands fa-google-play"></i></a>
+                        <div class="app-content">
+                            <span class="block text-white text-[13px]">Get in on</span>
+                            <span class="block font-medium text-white text-[13px]">Google Play</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+    <!-- jquery -----------------------------------------------------------------------
+    =================================================================================== -->
+
+    <script src="js/jquery.min.js"></script>
+
+    <Script>
+        $(document).ready(function () {
+            $(".scrolldown").click(function () {
+                $('html,body').animate({
+                    scrollTop: $(".destinations-area").offset().top
+                },
+                    'slow');
+            });
+        });
+    </Script>
+
+    <script>
+        $(window).scroll(function () {
+            if ($(this).scrollTop() > 1) {
+                $('header').addClass("sticky");
+            } else {
+                $('header').removeClass("sticky");
+            }
+        });
+    </script>
+
+    <!---------------------------------------- slick-slider -------------------------------------------- -->
+    <script src="js/jquery-slide.min.js"></script>
+    <script src="js/jquery-migrate.min.js"></script>
+    <script src="js/slick.min.js"></script>
+
+    <script>
+        $('.slid-banner').slick();
+    </script>
+    <script>
+        $('.shipp').slick({
+            dots: true,
+        });
+    </script>
+    <script>
+        $('.review').slick({
+            dots: true,
+        });
+    </script>
+
+
+    <!-- ------------------------------ wow js -------------------------------- -->
+
+    <script src="js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+
+</body>
+
+</html>
